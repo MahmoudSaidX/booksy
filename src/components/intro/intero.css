@@ -1,0 +1,58 @@
+.intero {
+  width: 85vw;
+  height: 40vh;
+  margin: 2em auto;
+  padding: 3em 3em;
+  background-color: #f3e7dd;
+  border-radius: 1em;
+  position: relative;
+}
+
+.vector {
+  width: 300px;
+  z-index: 100;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  animation: MoveUpDown 500ms linear infinite;
+  animation-duration: 20s;
+}
+.intero h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #413b89;
+}
+
+.intero p {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #ada097;
+  width: fit-content;
+}
+
+.intero button {
+  border: none;
+  padding: 1em 2em;
+  background-color: #c2a792;
+  color: #ffffff;
+  cursor: pointer;
+  border: 2px solid #c2a792;
+  border-radius: 0.5em;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.intero button:hover {
+  background-color: rgba(194, 167, 146, 0.411);
+  transition: all ease-in-out 1s;
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    top: 0;
+  }
+  50% {
+    top: 30px;
+  }
+}

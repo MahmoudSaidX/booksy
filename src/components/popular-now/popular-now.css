@@ -1,0 +1,25 @@
+.popular-now {
+  width: 85vw;
+  margin: 4em auto;
+}
+
+.popular-now_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popular-now_head h2 {
+  color: #2f343b;
+  font-size: 1.5rem;
+}
+
+.popular-now_head a {
+  text-decoration: none;
+  color: #afaec0;
+}
+
+.books-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}

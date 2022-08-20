@@ -1,0 +1,42 @@
+.book {
+  margin-right: 2em;
+  margin-block: 1em;
+  flex: 1 0 20%;
+}
+.book-img {
+  background-color: #413b89;
+  width: 20vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.70;
+  transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.book-img:hover {
+  opacity: 1;
+}
+
+.book-img p {
+  color: white;
+  text-align: center;
+}
+
+.book-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-block: 0.5em;
+}
+
+.book-author {
+  color: #bbbbbb;
+  font-weight: 400;
+  margin-block: 0.5em;
+}
+
+.checked {
+  color: orange;
+}

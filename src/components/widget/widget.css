@@ -1,0 +1,23 @@
+.widget{
+  width: 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.count{
+  width: 35px;
+  height: 35px;
+  background-color: #413b89;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lang {
+  opacity: .5;
+  font-weight: 700;
+  cursor: pointer;
+}

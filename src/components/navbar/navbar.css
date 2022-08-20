@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  width: 35vw;
+  margin-right: 4.5em;
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #b8aaa7;
+  font-weight: bold;
+}
+
+li a:hover {
+  color: #413b89;
+  transition: all ease-in-out 0.5s;
+}
+
+.active-link {
+  color: #413b89;
+}
