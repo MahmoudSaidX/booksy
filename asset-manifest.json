@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/booksy/static/css/main.69f66f55.css",
+    "main.js": "/booksy/static/js/main.93f83e55.js",
+    "static/media/vector.png": "/booksy/static/media/vector.e284420f7ca3cc5224b0.png",
+    "index.html": "/booksy/index.html",
+    "main.69f66f55.css.map": "/booksy/static/css/main.69f66f55.css.map",
+    "main.93f83e55.js.map": "/booksy/static/js/main.93f83e55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69f66f55.css",
+    "static/js/main.93f83e55.js"
+  ]
+}
