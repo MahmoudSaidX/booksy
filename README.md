@@ -5,6 +5,7 @@
 - Built the app UI using CSS and implemnted some css animations and transtions.
 - Used Gutendex to retrieve the books' data and implementd _axios_ and _React Hooks_ to fetch the data.
 - Displayed all books and their info as a paginated page.
+- Deployed with github pages [Booksy App](https://mahmoudsaidx.github.io/booksy/)
 
 ## Resources
 
